@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorial_mod:block/end_stone_sapphire_ore"
+    "all": "tutorial_mod:block/end_stone_sapphire_ore"
   }
 }
