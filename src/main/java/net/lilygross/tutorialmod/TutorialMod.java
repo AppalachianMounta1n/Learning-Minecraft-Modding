@@ -1,5 +1,6 @@
 package net.lilygross.tutorialmod;
 
+import net.lilygross.tutorialmod.item.ModCreativeModeTabs;
 import net.lilygross.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -26,7 +27,8 @@ public class TutorialMod {
     public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus); //add modded Creative Mode tabs
+        ModItems.register(modEventBus); //add modded items
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
