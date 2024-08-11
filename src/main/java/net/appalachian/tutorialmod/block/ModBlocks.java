@@ -1,7 +1,7 @@
-package net.lilygross.tutorialmod.block;
+package net.appalachian.tutorialmod.block;
 
-import net.lilygross.tutorialmod.TutorialMod;
-import net.lilygross.tutorialmod.item.ModItems;
+import net.appalachian.tutorialmod.TutorialMod;
+import net.appalachian.tutorialmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;

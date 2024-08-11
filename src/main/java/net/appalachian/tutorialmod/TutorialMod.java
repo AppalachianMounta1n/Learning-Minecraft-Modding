@@ -1,8 +1,8 @@
-package net.lilygross.tutorialmod;
+package net.appalachian.tutorialmod;
 
-import net.lilygross.tutorialmod.item.ModCreativeModeTabs;
-import net.lilygross.tutorialmod.item.ModItems;
-import net.lilygross.tutorialmod.block.ModBlocks;
+import net.appalachian.tutorialmod.item.ModCreativeModeTabs;
+import net.appalachian.tutorialmod.item.ModItems;
+import net.appalachian.tutorialmod.block.ModBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,6 +1,6 @@
-package net.lilygross.tutorialmod.item;
+package net.appalachian.tutorialmod.item;
 
-import net.lilygross.tutorialmod.TutorialMod;
+import net.appalachian.tutorialmod.TutorialMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
