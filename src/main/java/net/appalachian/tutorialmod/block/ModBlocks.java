@@ -33,15 +33,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
-                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7))); //register a sapphire ore block that drops between 3 and 6 experience orbs
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7))); //register a sapphire ore block that drops between 3 and 7 experience orbs
 
     public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
-                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(4, 8))); //register a sapphire ore block that drops between 3 and 6 experience orbs
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(4, 8))); //register a sapphire ore block that drops between 4 and 8 experience orbs
 
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
-                    .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(5, 10))); //register a sapphire ore block that drops between 3 and 6 experience orbs
+                    .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(5, 10))); //register a sapphire ore block that drops between 5 and 10 experience orbs
 
     //allow blocks to be registered
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
