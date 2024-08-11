@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "all": "tutorial_mod:block/deepslate_sapphire_ore"
+    "layer0": "tutorial_mod:block/deepslate_sapphire_ore"
   }
 }
