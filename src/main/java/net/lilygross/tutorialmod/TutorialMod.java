@@ -2,6 +2,7 @@ package net.lilygross.tutorialmod;
 
 import net.lilygross.tutorialmod.item.ModCreativeModeTabs;
 import net.lilygross.tutorialmod.item.ModItems;
+import net.lilygross.tutorialmod.block.ModBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,7 @@ public class TutorialMod {
 
         ModCreativeModeTabs.register(modEventBus); //add modded Creative Mode tabs
         ModItems.register(modEventBus); //add modded items
+        ModBlocks.register(modEventBus); //add modded blocks
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

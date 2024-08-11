@@ -1,6 +1,7 @@
 package net.lilygross.tutorialmod.item;
 
 import net.lilygross.tutorialmod.TutorialMod;
+import net.lilygross.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,8 +20,13 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get())) //starts building the tab and sets the icon
                     .title(Component.translatable("creativetab.tutorial_tab")) //sets the title to be translated in JSON
                     .displayItems((pParameters, pOutput) -> { //adds items to the tab in the order listed
+                        //items
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+
+                        //blocks
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
                     .build()); //finishes building the tab
 
