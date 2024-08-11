@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tutorial_mod:raw_sapphire"
+  },
+  "result": "tutorial_mod:sapphire"
+}
