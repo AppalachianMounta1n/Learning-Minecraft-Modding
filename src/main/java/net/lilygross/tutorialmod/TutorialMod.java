@@ -46,6 +46,7 @@ public class TutorialMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE); //adds the sapphire item to the ingredients creative tab
+            event.accept(ModItems.RAW_SAPPHIRE); //adds the sapphire item to the ingredients creative tab
         }
     }
 
