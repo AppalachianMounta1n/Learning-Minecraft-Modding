@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tutorial_tab")) //sets the title to be translated in JSON
                     .displayItems((pParameters, pOutput) -> { //adds items to the tab in the order listed
                         //items
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
 
