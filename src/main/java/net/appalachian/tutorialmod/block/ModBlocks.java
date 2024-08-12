@@ -1,6 +1,7 @@
 package net.appalachian.tutorialmod.block;
 
 import net.appalachian.tutorialmod.TutorialMod;
+import net.appalachian.tutorialmod.block.custom.SoundBlock;
 import net.appalachian.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
@@ -42,6 +43,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(5, 10))); //register a sapphire ore block that drops between 5 and 10 experience orbs
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK))); //register a sound block
 
     //allow blocks to be registered
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

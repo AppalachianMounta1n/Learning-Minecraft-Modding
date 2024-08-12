@@ -7,3 +7,4 @@
 - [Custom Recipes](https://youtu.be/NppdgWsSVec?si=EZmGirli3Btj7_HT)
 - [Custom Loot Tables](https://youtu.be/kSXP_GXdNGg?si=bmWX3WEzfo-VwNGj)
 - [Custom Advanced Item](https://youtu.be/TPfNvwfgXAU?si=q_QWDB6-SUQd_-r8)
+- [Custom Advanced Block](https://youtu.be/HCbmrPkDV7A?si=3-QlyEFQCDn_Mc5u)

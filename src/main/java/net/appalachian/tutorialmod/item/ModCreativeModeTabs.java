@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         //blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
                         //ores
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
